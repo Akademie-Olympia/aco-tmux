@@ -21,7 +21,7 @@
 #      adding bindings or options ->  local.conf
 #
 #  Every option, with its accepted values, is in config/00-options.conf and at
-#  https://tmux-config.readthedocs.io/en/latest/reference/options/
+#  https://aco-tmux.readthedocs.io/en/latest/reference/options/
 #
 #  Reload with `prefix + R` after editing.
 # ==============================================================================

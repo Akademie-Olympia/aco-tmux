@@ -2,7 +2,7 @@ site_name: tmux-config
 site_description: >-
   A readable, portable, fast tmux configuration — one file to configure,
   six themes, no plugins required. macOS, Linux, WSL2 and MSYS2.
-site_url: https://tmux-config.readthedocs.io/
+site_url: https://aco-tmux.readthedocs.io/
 site_author: Michael Weiss
 copyright: Copyright &copy; 2026 Michael Weiss — MIT License
 repo_url: https://github.com/Akademie-Olympia/aco-tmux

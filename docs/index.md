@@ -1,7 +1,7 @@
 # tmux-config
 
-[![Docs](https://readthedocs.org/projects/tmux-config/badge/?version=latest)](https://tmux-config.readthedocs.io/en/latest/)
-[![Dotfiles Hub](https://img.shields.io/badge/ecosystem-arch--dotfiles-1793D1?logo=arch-linux&logoColor=white)](https://arch-dotfiles.readthedocs.io/en/latest/)
+[![Docs](https://readthedocs.org/projects/aco-tmux/badge/?version=latest)](https://aco-tmux.readthedocs.io/en/latest/)
+[![Dotfiles Hub](https://img.shields.io/badge/ecosystem-arch--dotfiles-1793D1?logo=arch-linux&logoColor=white)](https://aco-arch-dotfiles.readthedocs.io/en/latest/)
 [![tmux 3.3+](https://img.shields.io/badge/tmux-3.3%2B-1BB91F?logo=tmux&logoColor=white)](https://github.com/tmux/tmux)
 [![Theme: Catppuccin Mocha](https://img.shields.io/badge/theme-Catppuccin%20Mocha-cba6f7)](https://github.com/catppuccin/catppuccin)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/Akademie-Olympia/aco-tmux/blob/main/LICENSE)
@@ -11,7 +11,7 @@ well enough that you can change any part of it without reading the tmux manual
 first.
 
 :::{note}
-**Part of the Arch Dotfiles Ecosystem**: Built for **Arch Linux** as part of [`arch-dotfiles`](https://arch-dotfiles.readthedocs.io/en/latest/),
+**Part of the ACO Arch Dotfiles Ecosystem**: Built for **Arch Linux** as part of [`aco-arch-dotfiles`](https://aco-arch-dotfiles.readthedocs.io/en/latest/),
 this tmux configuration is engineered to be portable and beginner-friendly, with one single options
 file to configure, six themes, and complete documentation so anyone can use it
 out-of-the-box on Arch Linux or seamlessly across any Linux distribution, macOS,
@@ -139,11 +139,11 @@ publishing
 :caption: Related documentation
 :hidden:
 
-Arch Dotfiles (main hub) <https://arch-dotfiles.readthedocs.io/en/latest/>
-Neovim (nvim-config) <https://nvim-config.readthedocs.io/en/latest/>
-Ghostty (ghostty-config) <https://ghostty-config.readthedocs.io/en/latest/>
-Kitty (kitty-config) <https://kitty-config.readthedocs.io/en/latest/>
-Vim (vim-config) <https://vim-config.readthedocs.io/en/latest/>
+ACO Arch Dotfiles (main hub) <https://aco-arch-dotfiles.readthedocs.io/en/latest/>
+Neovim (nvim-config) <https://aco-nvim.readthedocs.io/en/latest/>
+Ghostty (ghostty-config) <https://aco-ghostty.readthedocs.io/en/latest/>
+Kitty (kitty-config) <https://aco-kitty.readthedocs.io/en/latest/>
+Vim (vim-config) <https://aco-vim.readthedocs.io/en/latest/>
 ```
 
 ---
@@ -189,7 +189,7 @@ configuration can remove it. See the [platform matrix](getting-started/installat
 
 This tmux setup integrates seamlessly with:
 
-- **[Arch Dotfiles Hub (`arch-dotfiles`)](https://arch-dotfiles.readthedocs.io/en/latest/)**: Installer and signed Pacman registry for independent configuration repositories; update with `pacman -Syu` or `adot update`.
-- **[nvim-config](https://nvim-config.readthedocs.io/en/latest/)**: Seamless navigation between tmux panes and Neovim splits via `Ctrl+h/j/k/l`.
-- **[ghostty-config](https://ghostty-config.readthedocs.io/en/latest/)** & **[kitty-config](https://kitty-config.readthedocs.io/en/latest/)**: Terminal emulators with matching Catppuccin Mocha colors and truecolor support.
-- **[vim-config](https://vim-config.readthedocs.io/en/latest/)**: Synchronized navigation and keybindings.
+- **[ACO Arch Dotfiles Hub (`aco-arch-dotfiles`)](https://aco-arch-dotfiles.readthedocs.io/en/latest/)**: Installer and signed Pacman registry for independent configuration repositories; update with `pacman -Syu` or `aco update`.
+- **[nvim-config](https://aco-nvim.readthedocs.io/en/latest/)**: Seamless navigation between tmux panes and Neovim splits via `Ctrl+h/j/k/l`.
+- **[ghostty-config](https://aco-ghostty.readthedocs.io/en/latest/)** & **[kitty-config](https://aco-kitty.readthedocs.io/en/latest/)**: Terminal emulators with matching Catppuccin Mocha colors and truecolor support.
+- **[vim-config](https://aco-vim.readthedocs.io/en/latest/)**: Synchronized navigation and keybindings.
