@@ -103,6 +103,14 @@ add @cap_utf8 "$UTF8"
 # ------------------------------------------------------------------------------
 #  Colour depth
 # ------------------------------------------------------------------------------
+# tmux 3.6 does not always hand TERM and COLORTERM to a run-shell that executes
+# while the configuration is still loading, although the server already holds the
+# client's values in its global environment. Ask the server when the process
+# environment came up empty, otherwise a truecolor terminal is detected as 8 colours.
+server_env() { "$TMUX_BIN" show-environment -g "$1" 2>/dev/null | sed -n "s/^$1=//p"; }
+[ -n "${TERM:-}" ] || TERM="$(server_env TERM)"
+[ -n "${COLORTERM:-}" ] || COLORTERM="$(server_env COLORTERM)"
+
 TRUECOLOR="no"
 COLORS="256"
 
