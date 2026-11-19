@@ -70,15 +70,6 @@ assert_ne() {
 }
 
 printf '\ntmux-config tests\n'
-echo "DEBUG tmux: $(tmux -V) TERM=${TERM:-<unset>} tty=$(tty 2>&1)"
-build
-start dbg TERM=xterm-256color COLORTERM=truecolor LANG=en_US.UTF-8
-echo "DEBUG err: $(cat "$STAGE/err")"
-echo "DEBUG cap_truecolor=$(val dbg @cap_truecolor) cap_colors=$(val dbg @cap_colors) cap_term=$(val dbg @cap_term)"
-tmux -L dbg run-shell 'echo "DEBUG run-shell env: TERM=$TERM COLORTERM=$COLORTERM"' 2>&1 | sed 's/^/DEBUG /'
-tmux -L dbg show-environment -g 2>&1 | grep -E 'TERM|COLOR' | sed 's/^/DEBUG genv: /'
-stop dbg
-
 
 # ------------------------------------------------------------------------------
 printf '\nLoads cleanly under each TERM\n'
