@@ -1,27 +1,22 @@
-# tmux-config
+# tmux configuration
 
-Portable, modulare tmux-Konfiguration mit Themes, Key Explorer und optionalen,
-vendorten Plugins. Die normalen tmux-Funktionen bleiben erreichbar.
+Portable, modular tmux configuration with themes, a key explorer and optional vendored plugins. The normal tmux features stay reachable.
 
-**[Vollständige Dokumentation](https://aco-tmux.readthedocs.io/en/latest/)** ·
-[Arch-Paket](https://aco-tmux.readthedocs.io/en/latest/packages/) ·
-[Keybindings](https://aco-tmux.readthedocs.io/en/latest/keybindings/quick/) ·
-[Optionen](https://aco-tmux.readthedocs.io/en/latest/reference/options/)
+**[Full documentation](https://aco-tmux.readthedocs.io/en/latest/)** ·
+[Arch package](https://aco-tmux.readthedocs.io/en/latest/packages/) ·
+[Key bindings](https://aco-tmux.readthedocs.io/en/latest/keybindings/quick/) ·
+[Options](https://aco-tmux.readthedocs.io/en/latest/reference/options/) ·
+[Design & dependencies](https://aco-tmux.readthedocs.io/en/latest/design/)
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/Akademie-Olympia/aco-arch-dotfiles/main/install.sh | bash -s -- tmux
 ```
 
-Paket: `aco-arch-dotfiles-tmux`. Lokale Anpassungen: `~/.config/tmux/local-options.conf`
-und `local.conf`. `prefix H` öffnet den Key Explorer, `prefix R` lädt neu.
-Für tmux 3.8 liegen Zusatzfunktionen jetzt auf `prefix G` (Scratch-Terminal),
-`prefix J` (Pane holen) und `prefix B` (letztes Fenster), damit `g`, `@` und `Tab`
-ihre neuen tmux-Standardfunktionen behalten.
-
-Hier unabhängig entwickeln und auf `main` pushen; nach erfolgreichem Registry-Build
-mit `sudo pacman -Syu` aktualisieren. [PACKAGING.md](PACKAGING.md).
+Package: `aco-arch-dotfiles-tmux`. Local customisation: `~/.config/tmux/local-options.conf` and `local.conf`. `prefix H` opens the key explorer, `prefix R` reloads.
+For tmux 3.8 the extras now live on `prefix G` (scratch terminal), `prefix J` (fetch pane) and `prefix B` (last window) so that `g`, `@` and `Tab` keep their new tmux defaults.
+Develop independently in this repository and push to `main`; after a successful registry build update with `sudo pacman -Syu`. Local builds: [PACKAGING.md](PACKAGING.md).
 
 [![CI](https://github.com/Akademie-Olympia/aco-tmux/actions/workflows/ci.yml/badge.svg)](https://github.com/Akademie-Olympia/aco-tmux/actions/workflows/ci.yml)
 [![Package safety](https://github.com/Akademie-Olympia/aco-tmux/actions/workflows/package.yml/badge.svg)](https://github.com/Akademie-Olympia/aco-tmux/actions/workflows/package.yml)
 
-[MIT-Lizenz](LICENSE); vendorte Plugins behalten ihre jeweiligen Lizenzen.
+[MIT licence](LICENSE); vendored plugins keep their respective licences.

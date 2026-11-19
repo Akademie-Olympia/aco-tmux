@@ -7,7 +7,7 @@ arch=('any')
 url='https://github.com/Akademie-Olympia/aco-arch-dotfiles'
 license=('LicenseRef-arch-dotfiles-bundle')
 depends=('aco-arch-dotfiles-core>=0.3.0' 'tmux>=3.3' 'bash' 'git' 'fzf')
-optdepends=()
+optdepends=('wl-clipboard: system clipboard on Wayland')
 replaces=('arch-dotfiles-tmux')
 conflicts=('arch-dotfiles-tmux')
 options=('!strip')
