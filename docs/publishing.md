@@ -16,7 +16,7 @@ gh repo create tmux-config --public --source=. --remote=origin --push
 Or manually:
 
 ```bash
-git remote add origin https://github.com/MichaelWeissDEV/tmux-config.git
+git remote add origin https://github.com/Akademie-Olympia/aco-tmux.git
 git push -u origin main
 ```
 
@@ -112,6 +112,6 @@ make -C docs dirhtml
 And once, on a clean machine, the thing users will actually do:
 
 ```bash
-git clone https://github.com/MichaelWeissDEV/tmux-config.git ~/.config/tmux
+git clone https://github.com/Akademie-Olympia/aco-tmux.git ~/.config/tmux
 cd ~/.config/tmux && ./install.sh && tmux
 ```

@@ -2,7 +2,7 @@
 
 :::{note} This page is generated
 Do not edit it by hand. `scripts/gen-docs` builds it from the key
-registry in [`keys/`](https://github.com/MichaelWeissDEV/tmux-config/tree/main/keys),
+registry in [`keys/`](https://github.com/Akademie-Olympia/aco-tmux/tree/main/keys),
 and CI fails if the two disagree. Regenerate with:
 
 ```bash

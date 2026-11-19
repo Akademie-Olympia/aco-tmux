@@ -48,7 +48,7 @@ WINDOWS
 ## The three views
 
 **Quick** is what opens. It is the curated shortlist from
-[`keys/quick.tsv`](https://github.com/MichaelWeissDEV/tmux-config/blob/main/keys/quick.tsv) —
+[`keys/quick.tsv`](https://github.com/Akademie-Olympia/aco-tmux/blob/main/keys/quick.tsv) —
 the same list as the [quick reference](quick.md) — because showing 300 bindings
 to someone asking "what can I press?" is not an answer.
 

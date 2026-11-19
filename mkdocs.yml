@@ -5,7 +5,7 @@ site_description: >-
 site_url: https://tmux-config.readthedocs.io/
 site_author: Michael Weiss
 copyright: Copyright &copy; 2026 Michael Weiss — MIT License
-repo_url: https://github.com/MichaelWeissDEV/tmux-config
+repo_url: https://github.com/Akademie-Olympia/aco-tmux
 repo_name: tmux-config
 edit_uri: edit/main/docs/
 
@@ -137,7 +137,7 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/MichaelWeissDEV/tmux-config
+      link: https://github.com/Akademie-Olympia/aco-tmux
 
 # `tmux` is not a Pygments lexer. Highlighting config files as `ini` gives
 # sensible comment and key/value colouring without a custom lexer.

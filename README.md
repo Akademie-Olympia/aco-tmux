@@ -9,7 +9,7 @@ vendorten Plugins. Die normalen tmux-Funktionen bleiben erreichbar.
 [Optionen](https://tmux-config.readthedocs.io/en/latest/reference/options/)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/MichaelWeissDEV/dotfiles/main/install.sh | bash -s -- tmux
+curl -fsSL https://raw.githubusercontent.com/Akademie-Olympia/aco-dotfiles/main/install.sh | bash -s -- tmux
 ```
 
 Paket: `arch-dotfiles-tmux`. Lokale Anpassungen: `~/.config/tmux/local-options.conf`
@@ -21,7 +21,7 @@ ihre neuen tmux-Standardfunktionen behalten.
 Hier unabhängig entwickeln und auf `main` pushen; nach erfolgreichem Registry-Build
 mit `sudo pacman -Syu` aktualisieren. [PACKAGING.md](PACKAGING.md).
 
-[![CI](https://github.com/MichaelWeissDEV/tmux-config/actions/workflows/ci.yml/badge.svg)](https://github.com/MichaelWeissDEV/tmux-config/actions/workflows/ci.yml)
-[![Package safety](https://github.com/MichaelWeissDEV/tmux-config/actions/workflows/package.yml/badge.svg)](https://github.com/MichaelWeissDEV/tmux-config/actions/workflows/package.yml)
+[![CI](https://github.com/Akademie-Olympia/aco-tmux/actions/workflows/ci.yml/badge.svg)](https://github.com/Akademie-Olympia/aco-tmux/actions/workflows/ci.yml)
+[![Package safety](https://github.com/Akademie-Olympia/aco-tmux/actions/workflows/package.yml/badge.svg)](https://github.com/Akademie-Olympia/aco-tmux/actions/workflows/package.yml)
 
 [MIT-Lizenz](LICENSE); vendorte Plugins behalten ihre jeweiligen Lizenzen.

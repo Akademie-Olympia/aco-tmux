@@ -1,7 +1,7 @@
 # Recipes
 
 Ready-to-use additions. Every one of these is already in
-[`local.conf.example`](https://github.com/MichaelWeissDEV/tmux-config/blob/main/local.conf.example),
+[`local.conf.example`](https://github.com/Akademie-Olympia/aco-tmux/blob/main/local.conf.example),
 commented out — copy that file and uncomment what you want:
 
 ```bash

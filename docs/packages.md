@@ -1,7 +1,7 @@
 # Arch package and automatic updates
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/MichaelWeissDEV/dotfiles/main/install.sh | bash -s -- tmux
+curl -fsSL https://raw.githubusercontent.com/Akademie-Olympia/aco-dotfiles/main/install.sh | bash -s -- tmux
 ```
 
 This installs `arch-dotfiles-tmux`, tmux and the common activation tool. Existing

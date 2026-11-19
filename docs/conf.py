@@ -43,7 +43,7 @@ suppress_warnings = ["myst.header", "myst.xref_missing"]
 html_theme = "furo"
 html_title = "tmux-config docs"
 html_theme_options = {
-    "source_repository": "https://github.com/MichaelWeissDEV/tmux-config",
+    "source_repository": "https://github.com/Akademie-Olympia/aco-tmux",
     "source_branch": "main",
     "source_directory": "docs/",
     "light_css_variables": {

@@ -92,7 +92,7 @@ sudo apt install xclip          # X11
 ## Installing the config
 
 ```bash
-git clone https://github.com/MichaelWeissDEV/tmux-config.git ~/.config/tmux
+git clone https://github.com/Akademie-Olympia/aco-tmux.git ~/.config/tmux
 cd ~/.config/tmux
 ./install.sh
 ```
@@ -127,7 +127,7 @@ The installer:
 If you would rather not run the script:
 
 ```bash
-git clone https://github.com/MichaelWeissDEV/tmux-config.git ~/.config/tmux
+git clone https://github.com/Akademie-Olympia/aco-tmux.git ~/.config/tmux
 echo 'source-file ~/.config/tmux/tmux.conf' > ~/.tmux.conf
 ```
 
