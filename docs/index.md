@@ -52,6 +52,7 @@ settings implements it.
 :maxdepth: 1
 :caption: Getting Started
 
+design
 getting-started/quick-start
 getting-started/installation
 packages
